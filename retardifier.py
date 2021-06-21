@@ -60,7 +60,7 @@ class Retardifier:
             updates = self.get_updates(offset)
             for update in updates['result']:
                 offset=update['update_id']+1
-                if update['message']['from']['id'] in self.retards_ids:
+                if update.has_key('message') and update['message']['from']['id'] in self.retards_ids:
                     self.handle_retardation(update['message'])
             time.sleep(1)
         
