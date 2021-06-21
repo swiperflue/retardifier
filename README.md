@@ -4,6 +4,8 @@ A simple bot for retardifiying retards on Telegram.
 
 To put it simply when some retard on Telegram say something completely retarded, it takes his message and retardifies it even more, and reply to it.
 
+![image](https://user-images.githubusercontent.com/81438111/122693829-553a9600-d233-11eb-9e6a-0c55c10ac192.png)
+
 ## Installation and usage
 
 1. clone the repo and cd to it
@@ -31,3 +33,5 @@ pip install -r requirements.txt
 ```
 python retardifier.py
 ```
+
+PS: And yeah, don't forget to have fun :P, don't take this too seriously.
