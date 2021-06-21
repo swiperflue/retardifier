@@ -32,6 +32,8 @@ class Retardifier:
         response = requests.post(url, files=files, data=data)
         if not response.ok:
             print(f"Failed to send reply: {response.content}")
+        # just a temporary solution to slow down replies and avoid getting rate limited
+            sleep(1)
         
     def handle_retardation(self, retardation):
         for item in self.retardations:
