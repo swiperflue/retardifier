@@ -2,7 +2,7 @@
 
 A simple bot for retardifiying retards on Telegram.
 
-To put it simply, when some retard on Telegram says something completely retarded, it takes his message and retardifies it even more, and reply to it.
+To put it simply, when some retard on Telegram says something completely retarded, it takes his message and retardifies it even more, and replies to it.
 
 ![image](https://user-images.githubusercontent.com/81438111/122693829-553a9600-d233-11eb-9e6a-0c55c10ac192.png)
 
