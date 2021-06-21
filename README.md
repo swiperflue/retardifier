@@ -29,4 +29,6 @@ pip install -r requirements.txt
 - retardation_salt: a list of silly retarded words you want the bot to add to the end of the reply.
 
 5. run the bot
-```python retardifier.py```
+```
+python retardifier.py
+```
